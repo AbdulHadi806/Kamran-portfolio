@@ -1,0 +1,144 @@
+{
+    "header": {
+        "logo": "/images/logo.png",
+        "navigation": ["Services", "Portfolio","Leads", "Testimonials", "Blog"],
+        "contactBtn": "Contact Me"
+    },
+    "banner": {
+        "span": "I Build Custom",
+        "title": "Website Solutions ",
+        "SecTitle": "That Help Your",
+        "SecSpan": " Business Grow",
+        "textTransition": [" developer", " Designer", " Freelancer"],
+        "description": "I am a Freelancer striving to provide excellent quality work.",
+        "buttonFirst": "See my work",
+        "buttonSec": "Start a project",
+        "bannerRightImg": "/images/banner-right.png"
+    },
+    "services": {
+        "title": "My Services"
+    },
+    "portfolio": [
+        {
+            "image": "/images/portfolioBicycle.png",
+            "link": "https://www.bicyclecolorado.org/",
+            "status": "bicyclecolorado.org",
+            "condition":true
+        },
+        {
+            "image": "/images/PortfolioWealth.png",
+            "link": "/",
+            "status": "Try another example",
+            "condition":false
+        },
+        {
+            "image": "/images/apricotLaw.png",
+            "link": "https://www.hastingslawne.com/",
+            "status": "hastingslawne.com",
+            "condition":true
+        },
+        {
+            "image": "/images/Adnan.png",
+            "link": "/",
+            "status": "Try another example",
+            "condition":false
+        },
+        {
+            "image": "/images/portfolo5.png",
+            "link": "/",
+            "status": "Try another example",
+            "condition":false
+        }
+    ],
+    "experience": [
+        {
+            "logo": "/images/Iplex.jpg",
+            "post": "Senior Frontend developer",
+            "company": "iPlex Pvt Ltd · Full-time",
+            "location": "westridge rawalpindi",
+            "time": "+9 Years",
+            "description": "Since its inception 2 decades ago iPlex was envisioned, to dedicate to providing excellence and innovation in Web Solutions and Back office....."
+        },
+        {
+            "logo": "/images/apricotLaw.png",
+            "post": "Senior Frontend developer",
+            "company": "ApricotLaw · Full-time",
+            "location": "USA",
+            "time": "+3 Years",
+            "description": "ApricotLaw is a full-service digital agency that provides website design, content marketing, organic Google ranking, PPC, social media management, and ad retargeting for law firms across the US and Canada....."
+        },
+        {
+            "logo": "/images/Ulter Tech.jpg",
+            "post": "Senior Frontend Developer",
+            "company": "Ulter Technologies · Part-time",
+            "location": "Islāmābād, Pakistan",
+            "time": "+3 Years",
+            "description": "Ulter Technologies is an international software consulting firm, focused in software development using cutting edge technologies and innovative techniques....."
+        },
+        {
+            "logo": "/images/iWebMonsteriWebMonster.jpg",
+            "post": "Senior Frontend Developer",
+            "company": "iWebMonster · Full-time",
+            "location": "Islāmābād, Pakistan",
+            "time": "+1 Years",
+            "description": "We work really closely with our clients and involve them in every stage of the project in an open, transparent way....."
+        },
+        {
+            "logo": "/images/Aplome.png",
+            "post": "Web Designer",
+            "company": "Aplome · Part-time",
+            "location": "Islāmābād, Pakistan",
+            "time": "+1 Years",
+            "description": "Aplome is a IT company specialising in developing Products and helping Tech Startups build their business....."
+        }
+    ],
+    "experienceTitle": "Past Leads",
+    "testimonials": {
+        "testimonail":"What They Are Saying",
+        "clientTestimonials": [
+            {
+                "img": "/images/Leonardo.png",
+                "client": "Leonardo Costa",
+                "review": "Kamran did a fantastic job. I am really satisfied with his work. He was professional, communicative, quick, and delivered a high-quality job. Well recommended."
+            },
+            {
+                "img": "/images/Kleber.png",
+                "client": "Kleber Rodrigues",
+                "review": "He did the job perfectly and quickly. I appreciated him having his microphone and camera on to work with and spoke very good English."
+            },
+            {
+                "img": "/images/MS-Harris.png",
+                "client": "Mrs.Harris",
+                "review": "Kamran has been such a great person to work with. He understood the requirements correctly and worked via a shared github repository. His work was so great and clean, that I'm continuing the project further to complete it entirely now :)"
+            }
+        ],
+        "moreTestimonials": "Want to see more testimonials?"
+    },
+    "pricing": {
+        "priceTitle": "Recommended For You",
+        "priceCards":[
+            {
+                "title": "Memo Pack",
+                "including": ["Responsive Design", "Pixel Perfect", "Revisions", "Design Customization", "Content Upload", "Jquery functionality", "design conversion"],
+                "notIncluding": ["Wordpress", "Animations","Plugin Integrations", "ReactJS", "NextJS", "Angular","SQL", "Domain", "1 month Free Support"],
+                "price": "10 USD"
+            },
+            {
+                "title": "Shark Pack",
+                "including": ["Responsive Design", "Pixel Perfect", "Revisions", "Design Customization", "Content Upload", "WordPress", "Animations", "Plugin Integrations", "ReactJS", "NextJS", "Angular", "SQL", "Jquery functionality", "design conversion"],
+                "notIncluding":["Domain", "1 month Free Support"],
+                "price": "20 USD"
+            },
+            {
+                "title": "Megladon Pack",
+                "including": ["Responsive Design", "Pixel Perfect", "Revisions", "Design Customization", "Content Upload", "Jquery functionality", "WordPress", "Animations", "Plugin Integrations", "ReactJS", "NextJS", "Angular", "SQL", "design conversion", "Domain", "1 month Free Support"],
+                "notIncluding":[],
+                "price": "100 USD"
+            }
+        ]
+    },
+    "discounts": "Contact me on",
+    "Upwork": "Upwork",
+    "discountSec": " And Get a discount",
+    "copyRight": "© 2023 Kamran Arshad. All rights reserved."
+}
