@@ -13,7 +13,7 @@
         "description": "I am a Freelancer striving to provide excellent quality work.",
         "buttonFirst": "See my work",
         "buttonSec": "Start a project",
-        "bannerRightImg": "/images/banner-right.png"
+        "bannerRightImg": "/images/bannerright.png"
     },
     "services": {
         "title": "My Services"

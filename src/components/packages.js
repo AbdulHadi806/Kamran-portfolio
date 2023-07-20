@@ -75,7 +75,7 @@ function Packages({ data }) {
                                     <ul>
                                         {
                                             item.including.map(item => {
-                                                return <li key={Math.random() * 1.016} className='flex gap-[10px] items-center'>
+                                                return <li key={Math.random() * 1000.016} className='flex gap-[10px] items-center'>
                                                     <FontAwesomeIcon icon={faCheck} className='text-[#00ff48]' />{item}
                                                 </li>
                                             })
