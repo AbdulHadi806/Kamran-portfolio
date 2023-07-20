@@ -2,6 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import GlobalHeading from './resuable-components/global-heading';
 import gsap from 'gsap';
 import ScrollTrigger from 'gsap/dist/ScrollTrigger';
+import Image from 'next/image';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -71,7 +72,7 @@ function RecentWork({ data }) {
                     <div className="absolute inset-0 flex justify-center items-center overflow-hidden rounded-3xl opacity-0 hover:opacity-90 hover:bg-[#000] duration-500 group">
                       <div className="absolute inset-0 bg-grey-700 opacity-80"></div>
                       <div className="z-10 flex flex-col justify-center items-center translate-y-4 group-hover:translate-y-0 transition-transform duration-700">
-                        <img alt="open car sales website" class="w-5 mb-1" src="https://d33wubrfki0l68.cloudfront.net/621fc099b299fce91c2b699d7f08a6e620e38917/d6b3b/assets/site/open.svg" width="448" height="512" />
+                        <Image width = {30} height = {30} alt="open car sales website" className="w-5 mb-1" src="https://d33wubrfki0l68.cloudfront.net/621fc099b299fce91c2b699d7f08a6e620e38917/d6b3b/assets/site/open.svg"  />
                         <p className="text-white">{item.status}</p>
                       </div>
                     </div>
