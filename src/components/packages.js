@@ -69,7 +69,7 @@ function Packages({ data }) {
                 {
                     data.pricing.priceCards.map(item => {
                         return (
-                            <div className='bg-white testimonial-card flex flex-col rounded-[3px] border-[1px] border-solid border-[rgba(25, 35, 15, 0.1)] items-between relative shadow-lg shadow-[#000]-500/50  py-[30px] px-[15px] min-h-[286px] max-w-[400px] w-[100%]'>
+                            <div key={Math.random() * 200} className='bg-white testimonial-card flex flex-col rounded-[3px] border-[1px] border-solid border-[rgba(25, 35, 15, 0.1)] items-between relative shadow-lg shadow-[#000]-500/50  py-[30px] px-[15px] min-h-[286px] max-w-[400px] w-[100%]'>
                                 <div>
                                     <h4 className='text-center mb-[10px] text-[#130f49] text-[24px] font-bold'>{item.title}</h4>
                                     <ul>

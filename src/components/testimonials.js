@@ -74,7 +74,7 @@ function Testimonials({ data }) {
         >
           {data.testimonials.clientTestimonials.map((item, index) => (
             <div
-              key={index}
+              key={index * 20.1201}
               className='testimonial-card bg-white rounded-[3px] relative mt-7 md:mt-[0] shadow-lg shadow-[#000]-500/50 pt-[40px] md:pt-[60px] pb-[30px] px-[15px] justify-between items-center flex flex-col min-h-[221px] md:min-h-[286px] md:max-w-[400px] w-[100%]'
             >
               <div className='w-[80px] absolute top-[-40px] rounded-full'>

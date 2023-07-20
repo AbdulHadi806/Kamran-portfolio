@@ -12,24 +12,6 @@ function Services({ data }) {
   const headingRef = useRef(null);
 
   useEffect(() => {
-    // Function to animate each card element
-    const animateCard = (card) => {
-      gsap.fromTo(
-        card,
-        {
-          opacity: 0,
-          y: 50,
-        },
-        {
-          opacity: 1,
-          y: 0,
-          duration: 0.8,
-          ease: 'power3.out',
-        }
-      );
-    };
-
-    // Animating the heading using ScrollTrigger
     gsap.fromTo(
       headingRef.current,
       {
@@ -120,7 +102,7 @@ function Services({ data }) {
         <div ref={cardsRef} className='flex flex-wrap gap-3 md:block md:grid md:grid-rows-2 md:grid-flow-col pt-10'>
           {content.map((item, index) => (
             <div
-              key={index}
+              key={index * 0.912}
               className={`shadow-3xl testimonial-card hover:border-transparent rounded-[3px] shadow-lg md:shadow-none hover:shadow-none md:hover:shadow-lg ${item.showDiv} shadow-grey-500/40  transition-shadow duration-500 px-[30px] pb-[30px] pt-[24px] min-h-[140px] w-[100%] md:max-w-[520px]`}
             >
               <div className='flex gap-5 items-center pb-3'>
