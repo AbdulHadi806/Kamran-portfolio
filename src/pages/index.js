@@ -20,19 +20,31 @@ export default function Home() {
   
   const { data, error } = useSWR('/api/portfolio', fetcher);
   if (error) return <div className='flex items-center justify-center text-[21px]'>Failed to Load Please try again Later...</div>;
-  if (!data) return <div className='flex items-center justify-center bg-gray-400 w-[100vw] h-[100vh]'><ClimbingBoxLoader color={'#000'} size={40} aria-label="ClimbingBoxLoader" data-testid="loader" /></div>
+  if (!data) return <div className='flex overflow-hidden items-center justify-center bg-gray-400 w-[100vw] h-[100vh]'><ClimbingBoxLoader color={'#000'} size={40} aria-label="ClimbingBoxLoader" data-testid="loader" /></div>
   return (
     <div>
      <Header data={data}/>
      <Banner data={data}/>
      <div class="w-full mt-24 bg-[#e6e6e6] h-px mb-8 sm:mb-28"></div>
-     <Services data={data}/>
-     <RecentWork data={data}/>
+     <div id = "Services">
+      <Services data={data}/>
+     </div>
+     <div id='Portfolio'>
+      <RecentWork data={data}/>
+     </div>
+     <div id='Leads'>
      <Experience data={data}/>
-     <Testimonials data={data}/>
-     <Packages data={data} />
-     <Blogs data={data}/>
-     <Upwork data={data}/>
+     </div>
+     <div id='Testimonials'>
+      <Testimonials data={data}/>
+     </div>
+       <div id='Blueprints'>
+       <Packages data={data} />
+       </div>
+       <Blogs data={data}/>
+     <div id='contact-us'>
+       <Upwork data={data}/>
+     </div>
      <MessageDirectly />
      <p className='text-center text-base pb-10 px-6 text-gray-400'>{data.copyRight}</p>
     </div>

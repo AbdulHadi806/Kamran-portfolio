@@ -34,21 +34,21 @@ function Header({ data }) {
                   toggled ? 'block md:block' : 'hidden md:block'
                 }`}
               >
-                <a href='#' className='hover:text-[#3b44b4] block font-semibold w-[100%]'>
+                <Link href={`#${item}`} className='hover:text-[#3b44b4] block font-semibold w-[100%]'>
                   {item}
-                </a>
+                </Link>
               </li>
             ))}
             <li
               className={`leading-[42px] px-2 md:hideen md:hideen lg:px-5 ${toggled ? 'block' : 'hidden '}`}
               style={{ transition: 'opacity 0.3s' }}
             >
-              <a href='#' className='hover:text-[#3b44b4] inline-block font-semibold'>
+              <Link href='#contact-us' className='hover:text-[#3b44b4] inline-block font-semibold'>
                 Contact Me
-              </a>
+              </Link>
             </li>
             <div className='hidden md:flex'>
-              <GobalButtons specialClass={toggled ? 'block' : 'hidden'} text={data.header.contactBtn} bg={'#130f49'} />
+              <GobalButtons link = {"#contact-us"} specialClass={toggled ? 'block' : 'hidden'} text={data.header.contactBtn} bg={'#130f49'} />
             </div>
           </ul>
         </nav>

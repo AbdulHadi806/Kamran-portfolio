@@ -78,8 +78,8 @@ function Banner({ data }) {
         </h1>
         <span className='text-[#999999] moving-text font-semibold text-base pt-5 block'>{data.banner.description}</span>
         <div className='flex flex-wrap gap-3 mt-6'>
-          <GobalButtons specialClass={'flex'} text={data.banner.buttonFirst} bg={`#130f49`}/>
-          <GobalButtons specialClass={'flex'} text={data.banner.buttonSec} bg={`#34a1cd`} />
+          <GobalButtons link={"#Portfolio"} specialClass={'flex'} text={data.banner.buttonFirst} bg={`#130f49`}/>
+          <GobalButtons link={"#contact-us"} specialClass={'flex'} text={data.banner.buttonSec} bg={`#34a1cd`} />
         </div>
       </div>
       <div>
