@@ -98,7 +98,7 @@ function Testimonials({ data }) {
           ))}
         </div>
         <div ref={headingRef} className='text-center mt-[50px]'>
-          <a href="https://www.upwork.com/freelancers/~01de2ada001f8d010c" target="_blank" className='text-[#130f49] text-[20px] hover:text-[#232b30]'>{data.testimonials.moreTestimonials} Visit my Upwork Profile.</a>
+          <a href="https://www.upwork.com/freelancers/~01de2ada001f8d010c" rel="noreferrer" target="_blank" className='text-[#130f49] text-[20px] hover:text-[#232b30]'>{data.testimonials.moreTestimonials} Visit my Upwork Profile.</a>
         </div>
       </div>
     </div>
