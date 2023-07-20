@@ -95,7 +95,7 @@ function Services({ data }) {
 
   return (
     <div>
-      <div className='flex flex-col pb-10 mx-auto lg:container px-[20px] md:px-[15px] xl:px-[128px] 2xl:px-[240px] items-center justify-center'>
+      <div className='flex sm:pt-8 flex-col mx-auto lg:container px-[20px] md:px-[15px] xl:px-[128px] 2xl:px-[240px] items-center justify-center'>
         <div ref={headingRef}>
           <GlobalHeading title={data.services.title} />
         </div>

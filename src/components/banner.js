@@ -84,7 +84,7 @@ function Banner({ data }) {
       </div>
       <div>
         <div className='w-[90%] h-[208px] banner-image mx-auto max-w-[208px] md:max-w-[747px] md:h-[500px] md:ms-auto bg-[#d9f4ff] lg:rounded-tr-none overflow-hidden rounded-full'>
-          <Image width={747} height={613} className='h-[100%] banner-fade-img w-[100%] inset-0 object-cover banner-right-section' src={data.banner.bannerRightImg} alt='Kamran Arshad' />
+          <Image priority={true} width={747} height={613} className='h-[100%] banner-fade-img w-[100%] inset-0 object-cover banner-right-section' src={data.banner.bannerRightImg} alt='Kamran Arshad' />
         </div>
       </div>
     </div>

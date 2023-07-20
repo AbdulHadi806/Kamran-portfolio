@@ -15,6 +15,7 @@ function Header({ data }) {
             <Image
               src={data.header.logo}
               className='w-100 h-100'
+              priority={true}
               width={190}
               height={28}
               alt='logo'

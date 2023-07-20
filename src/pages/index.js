@@ -23,9 +23,12 @@ export default function Home() {
   if (!data) return <div className='flex overflow-hidden items-center justify-center bg-gray-400 w-[100vw] h-[100vh]'><ClimbingBoxLoader color={'#000'} size={40} aria-label="ClimbingBoxLoader" data-testid="loader" /></div>
   return (
     <div>
+    <Head>
+        <title>Kamran Freelancer</title>
+      </Head>
      <Header data={data}/>
      <Banner data={data}/>
-     <div class="w-full mt-24 bg-[#e6e6e6] h-px mb-8 sm:mb-28"></div>
+     <div class="w-full mt-24 bg-[#e6e6e6] h-px mb-8 sm:mb-20"></div>
      <div id = "Services">
       <Services data={data}/>
      </div>

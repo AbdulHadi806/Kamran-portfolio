@@ -53,7 +53,7 @@ function RecentWork({ data }) {
   }, []);
 
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative pt-10 overflow-hidden">
       <div
         ref={backgroundRef}
         className="before:absolute z-0 before:rounded-tl-[50px] mx-auto lg:container px-[20px] md:px-[15px] xl:px-[128px] 2xl:px-[240px] before:bg-[#fff5f6] before:top-0 before:right-0 before:w-[74%] before:h-[282px]"
