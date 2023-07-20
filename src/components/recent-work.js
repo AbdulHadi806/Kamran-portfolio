@@ -67,7 +67,7 @@ function RecentWork({ data }) {
             {data.portfolio.map((item) => {
               return (
                 <div className="relative" key={item.id}>
-                  <a href={item.link} target="_blank" rel="noopener noreferrer">
+                  <a href={item.link} target="_blank" rel="noreferrer">
                     <img alt="Every Square Inch web design" className="rounded-3xl w-[100%]" src={item.image} />
                     <div className="absolute inset-0 flex justify-center items-center overflow-hidden rounded-3xl opacity-0 hover:opacity-90 hover:bg-[#000] duration-500 group">
                       <div className="absolute inset-0 bg-grey-700 opacity-80"></div>

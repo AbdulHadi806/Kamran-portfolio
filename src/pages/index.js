@@ -48,7 +48,7 @@ export default function Home() {
      <div id='contact-us'>
        <Upwork data={data}/>
      </div>
-     <MessageDirectly />
+     {/* <MessageDirectly /> */}
      <p className='text-center text-base pb-10 px-6 text-gray-400'>{data.copyRight}</p>
     </div>
   )
