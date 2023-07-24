@@ -1,7 +1,7 @@
 {
     "header": {
         "logo": "/images/logo.png",
-        "navigation": ["Services", "Portfolio","Leads", "Testimonials", "Blueprints"],
+        "navigation": ["Services", "Portfolio","Leads", "Testimonials"],
         "contactBtn": "Contact Me"
     },
     "banner": {

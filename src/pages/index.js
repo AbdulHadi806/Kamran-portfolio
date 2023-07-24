@@ -41,9 +41,9 @@ export default function Home() {
      <div id='Testimonials'>
       <Testimonials data={data}/>
      </div>
-       <div id='Blueprints'>
+       {/* <div id='Blueprints'>
        <Packages data={data} />
-       </div>
+       </div> */}
        <Blogs data={data}/>
      <div id='contact-us'>
        <Upwork data={data}/>
