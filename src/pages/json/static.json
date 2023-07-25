@@ -1,7 +1,7 @@
 {
     "header": {
         "logo": "/images/logo.png",
-        "navigation": ["Services", "Portfolio","Leads", "Testimonials"],
+        "navigation": ["Services", "Portfolio","Leads", "Testimonials", "Blogs"],
         "contactBtn": "Contact Me"
     },
     "banner": {
@@ -137,8 +137,39 @@
             }
         ]
     },
-    "discounts": "Contact me on",
+    "discounts": "Shoot me a message on",
     "Upwork": "Upwork",
-    "discountSec": " And Get a discount",
-    "copyRight": "© 2023 Kamran Arshad. All rights reserved."
+    "discountSec": " and let's coordinate",
+    "copyRight": "© 2023 Kamran Arshad. All rights reserved.",
+    "blogs": {
+        "blogTitle": "From the Blog",
+        "blogs": [
+            {
+                "title": "The Right Web Developer",
+                "id": 0,
+                "date": "July 23rd, 2023",
+                "img": "/images/blogFirst.png",
+                "bg": "#d3e5f1",
+                "secondaryTitle": "Tips for Picking"
+            }, 
+            {
+                "title": "a Web App.",
+                "id": 1,
+                "date": "July 24th, 2023",
+                "img": "/images/BlogSecond.jpg",
+                "bg": "#a4ccce",
+                "secondaryTitle": "Tips for Optimizing"
+            }
+        ]
+    },
+    "blogPage": [
+        {
+            "id": 0,
+            "img": "/images/blogFirstPage.jpg"
+        },
+        {
+            "id": 1,
+            "img": "/images/blogSecondPage.jpg"
+        }
+    ]
 }

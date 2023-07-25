@@ -8,38 +8,32 @@ gsap.registerPlugin(ScrollTrigger);
 
 function Experience({ data }) {
   const containerRef = useRef(null);
-  const cardsRef = useRef([]);
+  const cardsRef = useRef(null);
 
   useEffect(() => {
     let ctx = gsap.context(() => {
-      const animateCard = (card) => {
-        gsap.fromTo(
-          card,
-          {
-            opacity: 0,
-            x: 150,
-          },
-          {
-            opacity: 1,
-            x: 0,
-            duration: 0.8,
-            ease: 'power3.out',
-            stagger: 0.9,
-            delay: 0.8,
-          }
-        );
-      };
 
-      cardsRef.current.forEach((card) => {
-        ScrollTrigger.create({
-          trigger: card,
-          start: 'top 60%',
-          onEnter: () => animateCard(card),
-          onLeave: () => {},
-          onEnterBack: () => {},
-          onLeaveBack: () => {},
-          once: true,
-        });
+      ScrollTrigger.create({
+        trigger: cardsRef.current,
+        start: 'top 40%',
+        onEnter: () => {
+          gsap.fromTo(
+            cardsRef.current.querySelectorAll('.testimonial-card'),
+            {
+              opacity: 0,
+              x: 150,
+            },
+            {
+              opacity: 1,
+              x: 0,
+              duration: 0.4,
+              ease: 'power3.out',
+              stagger: 0.3,
+              delay: 0.2,
+            }
+          );
+        },
+        once: true,
       });
     });
 
@@ -56,11 +50,10 @@ function Experience({ data }) {
             <span className="font-bold uppercase tracking-widest text-gray-600">Worked With</span>
             <GlobalHeading title={data.experienceTitle} />
           </div>
-          <div className="flex flex-col gap-5 items-center">
+          <div ref={cardsRef} className="flex flex-col gap-5 items-center">
             {data.experience.map((item, index) => (
               <div
                 key={index}
-                ref={(el) => (cardsRef.current[index] = el)}
                 className="bg-white rounded-[3px] testimonial-card flex-col sm:flex-row min-h-[158px] p-7 shadow-lg shadow-[#000]-500/50 flex gap-3 w-[100%]"
               >
                 <div className="flex gap-4 items-start">

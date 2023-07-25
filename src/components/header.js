@@ -49,7 +49,7 @@ function Header({ data }) {
               </Link>
             </li>
             <div className='hidden md:flex'>
-              <GobalButtons link = {"#contact-us"} specialClass={toggled ? 'block' : 'hidden'} text={data.header.contactBtn} bg={'#130f49'} />
+              <GobalButtons link = {"https://www.upwork.com/freelancers/~01de2ada001f8d010c"} specialClass={toggled ? 'block' : 'hidden'} text={data.header.contactBtn} bg={'#130f49'} />
             </div>
           </ul>
         </nav>

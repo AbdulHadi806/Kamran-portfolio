@@ -44,7 +44,9 @@ export default function Home() {
        {/* <div id='Blueprints'>
        <Packages data={data} />
        </div> */}
-       <Blogs data={data}/>
+       <div id='Blogs'>
+        <Blogs data={data}/>
+       </div>
      <div id='contact-us'>
        <Upwork data={data}/>
      </div>
