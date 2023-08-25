@@ -40,6 +40,7 @@ function BlogPage() {
             <img src={blog.img} className='w-75 mx-auto h-[100%]' alt="Freelancing Blogs" />
           </div>
         </div>
+        <h6 className='text-center text-[30px]'>Upcoming Soon...</h6>
       </div>
     </>
   );
