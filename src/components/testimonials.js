@@ -91,7 +91,7 @@ function Testimonials({ data }) {
               <div>
                 <span className='text-[#686a8f]'>{item.client}</span>
                 <div>
-                  <Image width={100} height={100} src="/images/upwork.svg" alt="upwork" />
+                  <Image width={100} height={100} className='mx-auto' src="/images/upwork.svg" alt="upwork" />
                 </div>
               </div>
             </div>
